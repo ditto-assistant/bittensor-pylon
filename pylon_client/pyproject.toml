@@ -5,6 +5,8 @@ description = "Bittensor Pylon client library"
 requires-python = ">=3.11"
 authors = [{name = "Reef Technologies", email = "opensource@reef.pl"}]
 dependencies = [
+    "anyio>=4.14.2",
+    "certifi>=2026.10.18",
     "pydantic>=2.0",
     "pydantic-settings>=2.0",
     "httpx",
